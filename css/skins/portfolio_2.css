@@ -1,0 +1,112 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+
+/************************************************
+        ==Section Padding / Margin CSS==
+************************************************/ 
+.page-section {
+    padding: 175px 0 102px;
+}
+
+/************************************************
+        ==Navigation CSS==
+************************************************/ 
+.logo-brand {
+    margin: 28px 30px 0 0;
+}
+.menuzord-menu>li>a {
+    text-transform: capitalize;
+}
+.tt-nav.sticky .header-default {
+    background: #fff !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.header-sticky, .sticky.transparent-header .header-sticky{
+    box-shadow: none;
+}
+.btn-search {
+    margin: 35px 0px 0 40px;
+}
+
+/************************************************
+        ==Start Portfolio CSS==
+************************************************/ 
+
+/* ------ portfolio Filter -----*/
+.portfolio-filter {
+    background: none;
+    box-shadow: none;
+	line-height: 0;
+    margin-bottom: 50px;
+}
+
+.portfolio-filter li {
+	padding: 0 15px;
+	
+}
+.portfolio-filter li a {
+    padding: 5px;
+}
+
+.portfolio-filter li.active {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.portfolio-filter li.active a {
+	border-bottom: 3px solid #333;
+	color: #666;
+}
+
+/* ------ Load More Button -----*/
+#load-more-project {
+    text-align: center;
+    margin-top: 36px;
+}
+.load-more-project-wrap {
+    background: none;
+    border: none;
+}
+.load-more-project-wrap {
+    font-family: 'proxima_nova_rgbold';
+	font-size: 15px;
+	color: #444;
+	letter-spacing: 0.5px;
+}
+.load-more-project-wrap span{
+	margin: 1px 5px;
+    position: absolute;
+    font-size: 14px;
+}
+button:focus {
+    background-color: transparent;
+}
+
+	
+/*************************************************
+         ==Footer Portfolio CSS==
+************************************************/
+
+.footer_logo img {
+    height: 50px;
+}
+.footer_area {
+    padding: 110px 0 90px;
+}
+.footer_icon li, .footer_menu li:after, .footer_menu li:before{
+    background: #99ca3c;
+}
+.copyright_section p a,
+.footer_menu li a:hover{
+    color: #99ca3c;
+}
+
+
+

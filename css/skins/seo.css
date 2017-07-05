@@ -1,0 +1,829 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+/*
+************************************************
+         == Btn CSS Start ==
+************************************************ 
+*/
+.btn.xplus-btn-round.cta_button,
+.checkup-btn,
+.btn.xplus-btn-round.works_btn,
+.btn.xplus-btn-round.with_us_btn,
+.footer-subscribe-btn,
+.footer-subscribe-btn:focus,  
+.footer-subscribe-btn:hover,
+.social_icon ul li a:hover,
+.footer_left_icon li a:hover{
+    background: #62D35D;
+}
+.btn.xplus-btn-round{
+    background: #1d1d22;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'proxima_nova_rgregular';
+    width: 190px;
+
+}
+.btn.xplus-btn-round.works_btn {
+    color: #fff;
+    border-radius: 50px;
+    width: 200px;
+}
+.btn.xplus-btn-round.company_btn {
+    background: #1d1d22;
+    border-radius: 32px;
+    float: left;
+    width: 170px;
+}
+.btn.xplus-btn-round.with_us_btn,
+.footer-subscribe-btn{
+    border-radius: 50px;
+    width: 170px;
+}
+a.btn.xplus-btn-round.company_btn {
+    margin: 0px;
+}
+.checkup-btn{
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 17px;
+    height: 55px;
+    line-height: 55px;
+    margin-left: 0;
+    margin: 0;
+    width: 100%;
+}
+.stay_update .btn.xplus-btn-round{
+background: #62D35D;
+    width: 190px;
+    font-size: 18px;
+    line-height: 55px;
+}
+/* ============= Color Presets ================ */
+
+/*Color blue*/
+.hero_content p a,
+.menuzord-menu ul.dropdown li.active>a,
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a,
+.menuzord-menu>li>.megamenu .megamenu-row li.active>a,
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li.active>a>i,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu>li:hover>a>i,
+.client_testimonial_3column_info:after,
+.footer_left_icon li a:hover
+.upgraded_1 input[type=email]:focus:not([readonly])+label, 
+.upgraded_h_1 input[type=email]:focus:not([readonly])+label, 
+.upgraded_field input[type=email]:focus:not([readonly])+label, 
+.upgraded_field input[type=text]:focus:not([readonly])+label, 
+textarea.massage_textarea:focus:not([readonly])+label{
+    color: #62D35D!important;
+}
+
+.nav-border-box .menuzord-menu > li.active > a,
+.nav-border-box .menuzord-menu > li:hover > a{
+    border:1px solid #62D35D;
+}
+.nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+.nav-border-bottom .menuzord .menuzord-menu>li:hover>a {
+    border-bottom: 3px solid #62D35D;
+}
+
+.input-field-modal button,
+.nav-boxed-color .menuzord-menu > li.active > a,
+.nav-boxed-color .menuzord-menu > li:hover > a{
+    background: #62D35D!important;
+}
+.menuzord-menu ul.dropdown li >a::before,
+.menuzord-menu>li>.megamenu .megamenu-row li >a::before {
+    background-color: #62D35D!important;
+}
+/*
+************************************************
+         == Slider CSS Start ==
+************************************************ 
+*/
+
+.tp-resizeme{
+    font-family: 'proxima_nova_rgbold';
+    color: #fff;
+}
+
+/*
+************************************************
+        == Checkup CSS Start ==
+************************************************ 
+*/
+.checkup_area {
+    border-bottom: 1px solid #ddd;
+    padding: 73px 0 80px
+}
+.checkup_cont h3 {
+    color: #333333;
+    font-size: 30px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 40px;
+}
+input#web-url[type=url]{    
+}
+input#email-address[type=email], input#web-url[type=url] {
+    border-bottom: none!important;
+    box-shadow: none!important;
+}
+input#web-url[type=url].invalid, input#email-address[type=email].invalid{
+    box-shadow: none;
+}
+.checkup-content-area{}
+.checkup-content-area ul{}
+.checkup-content-area ul li{
+	display: inline-block;
+	margin-right: 0px;
+	vertical-align: top;
+	float: left;
+}
+.checkup-content-area ul li:first-child, .checkup-content-area ul li:nth-child(2){
+    background: #f5f5f5;
+    border-radius: 50px;
+    color: #888888;
+    font-size: 14px;
+    font-family: 'proxima_nova_rgregular';
+    height: 55px;
+    padding: 5px 0 0 35px;
+}
+.checkup-content-area ul li:first-child{
+	width: 40%;
+}
+.checkup-content-area ul li:nth-child(2) {
+  margin: 0 15px 0;
+  width: 55%;
+}
+.checkup-content-area ul li:nth-child(3){
+	width: 18%;
+	margin-left: -19%;
+}
+
+.checkup-btn:focus{
+     background: #1d1d22;
+}
+
+/*
+************************************************
+        == Service CSS Start ==
+************************************************ 
+*/
+#service_area {
+    background: none;
+    border-bottom: none;
+    padding-bottom: 80px;
+}
+.service_content {
+    padding-top: 0px;
+}
+.service_img {
+    background: #f8f8f8;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+.service_text {
+    text-align: left;
+    width: 100%;
+    padding: 0 28px;
+}
+.service_text h3 {
+    margin: 36px 0 20px;
+}
+
+/*
+************************************************
+         == Trial CSS Start ==
+************************************************ 
+*/
+.start_trial {
+    background: #2A3C4F;
+    padding: 102px 0px 98px;
+}
+.trial_content {
+    float: right;
+}
+.trial_content h3 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+/*
+************************************************
+       == Why Choose Us CSS Start ==
+************************************************ 
+*/
+.choose_area {
+    background-image: none;
+    padding-bottom: 45px;
+}
+.choose_single_img {
+    border: none;
+    text-align: center;
+}
+.choose_title_subtitle span {
+    color: #888;
+}
+.choose_title h3 {
+    color: #003333;
+}
+.choose_icon {
+    box-shadow: none;
+    border-radius: 3px;
+}
+.choose_slider:nth-child(1) .choose_icon {
+    background: #4ad5c0;
+}
+.choose_slider:nth-child(2) .choose_icon {
+    background: #4cccfc;
+}
+.choose_slider:nth-child(3) .choose_icon {
+    background: #f4b71f; 
+}
+.choose_text h3 {
+    color: #333333;
+}
+.choose_text p {
+    color: #888888;
+    max-width: 400px;
+}
+
+/*
+************************************************
+       == Company CSS Start ==
+************************************************
+*/
+.about-compnay {
+    background: #62D35D;
+    padding: 145px 0px 140px;
+}
+.about_company_subtitle span {
+    color: #eeeeee;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'proxima_novasemibold';
+}
+.company_title h3 {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.company_section_title {
+    margin-bottom: 40px;
+}
+.company_info {
+    color: #ffffff;
+    font-size: 15px;
+}
+p.company_info {
+    margin-bottom: 40px;
+}
+.conpany_left {
+    margin: -26px 0 0px;
+}
+
+
+/*
+************************************************
+       == Portfolio CSS Start ==
+************************************************ 
+*/
+.portfolio_section_title{
+    text-align: center;
+}
+.work-4col {
+    padding-bottom: 0;
+}
+.grid figure:hover .gallery-img{
+    background: #62D35D;
+}
+figure:hover img {
+    opacity: 0.05;
+}
+.grid-gallery figcaption h3, .grid-gallery figcaption p a{
+    color: #fff;
+    letter-spacing: 1px;
+}
+.grid-gallery figcaption h3:hover{
+    color: #fff;
+}
+.grid-gallery figcaption p a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.grid figcaption {
+    margin-top: -20px;
+}
+/*
+************************************************
+         == Testimonial CSS Start ==
+************************************************ 
+*/
+.testimonial_area {
+    background-image: url(../../images/seo-testimonial.png);
+    background-color: #3A99AB;
+    padding: 110px 0;
+}
+.overlay:before {
+    background-color: rgba(35, 35, 40, .0);
+}
+.testimonial_content {
+    margin-top: 0px;
+}
+.testimonial_info {
+    margin: 28px 0 -5px;
+}
+.testimonial_content .owl-controls {
+    display: none;
+}
+.overlay:before{
+    
+/*
+************************************************
+         == Featured CSS Start ==
+************************************************ 
+*/}
+.client_area {
+    background: #2A3C4F;
+    padding: 0px;
+}
+.client_title {
+    border-bottom: 1px solid #364a5f;
+    padding-top: 50px;
+}
+.client_title h3 {
+    color: #eeeeee;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'proxima_nova_rgbold';
+}
+.client_logo img {
+    color: #fff;
+}
+.client_img {
+    padding: 35px 0px;
+}
+
+
+/*
+************************************************
+        == Pricing CSS Start ==
+************************************************ 
+*/
+.pricing_bg_color.hover_box {
+    padding: 65px 0;
+}
+.pricing_bg_color .plan-price {
+    padding-top: 0px;
+}
+.price_feature {
+    padding: 35px 0 60px;
+}
+.price_feature li {
+    border-top: 1px solid #f5f5f5;
+    border-bottom: none;
+    width: 170px;
+    margin: auto;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.price_feature li:first-child {
+    border-top: none;
+}
+.price_btn_seo {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.price_icon_seo,
+.price_icon_active_seo {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #333333;
+    width: 140px;
+    margin-top: -19px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+}
+.pricing_bg_color:hover .price_btn_seo a,
+.price_icon_active_seo {
+    background: #fff;
+    color: #333333;
+}
+.pricing_bg_color.active {
+    background: #62D35D;
+}
+.pricing_bg_color.active .plan-price h3 {
+    color: #ffffff;
+}
+.pricing_bg_color.active .Package_type {
+    color: #fff;
+}
+.pricing_bg_color.active .price_feature li {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    color: #eee;
+}
+.pricing_bg_color.active .price_feature li:first-child {
+    border-top: none;
+}
+.pricing_bg_color:hover {
+    background: #62D35D;
+}
+.pricing_bg_color:hover .plan-price h3 {
+    color: #ffffff;
+}
+.pricing_bg_color:hover .Package_type {
+    color: #fff;
+}
+.pricing_bg_color:hover .price_feature li {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    color: #eee;
+}
+.pricing_bg_color:hover .price_feature li:first-child {
+    border-top: none;
+}
+
+
+/*
+************************************************
+         == Blog CSS Start ==
+************************************************ 
+*/
+#blog_area_seo {
+    padding: 0 0 100px;
+}
+.blog_item_seo {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+    box-shadow: none;
+}
+.blog_cont {
+    padding: 36px 0px 0 20px;
+}
+
+/*
+************************************************
+         == With Us CSS Start ==
+************************************************ 
+*/
+.with_us_area {
+    background: #f8f8f8;
+    padding: 80px 0 70px;
+}
+.with_us_info h6 {
+    color: #888888;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+}
+.with_us_info h3 {
+    color: #333333;
+    font-size: 24px;
+    font-family: 'proxima_nova_rgbold';
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+/*
+************************************************
+         == Footer CSS Start ==
+************************************************ 
+*/
+
+.quick_link_list li a:hover {
+    color: #62D35D;
+}
+.contact-form input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #62D35D;
+    box-shadow: 0 1px 0 0 #62D35D;
+}
+.upgraded_h_1 input[type=email]:focus:not([readonly])+label {
+    color: #62D35D;
+}
+.quick_link {
+    float: right;
+}
+.copyright {
+    float: none;
+}
+.copyright p a {
+    color: #62D35D;
+}
+.scroll-up-footer .scroll_top_up {
+    background: #62D35D;
+}
+
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .choose_single_img {
+        margin-top: 0;
+    }
+    .service_text {
+        padding: 0 18px;
+    }
+    .service_text h3 {
+        font-size: 19px;
+    }
+    .conpany_left {
+        margin-top: 45px;
+    }
+    .company_title h3 {
+        font-size: 29px;
+    }
+    .testimonial_area {
+        margin-top: -1px;
+    }
+    #pricing_area_seo {
+        padding-bottom: 0px;
+    }
+    .blog_item_seo .blog_cont {
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .top_header_area {
+        display: none;
+    }
+    
+    a.btn.xplus-btn-round.company_btn {
+        float: none;
+    }
+    .service_text {
+        padding: 0 15px;
+    }
+    .start_trial .trial_content h3 {
+        font-size: 26px;
+    }
+    .about-compnay {
+        padding: 100px 0px 95px;
+        text-align: center;
+    }
+    .conpany_left {
+        margin: 0 0 40px;
+    }
+    .choose_single_content {
+        float: left;
+    }
+    .choose_single_img img {
+    margin-top: 45px;
+    }
+    #pricing_area_seo {
+        padding-bottom: 0px;
+    }
+    .blog_img img {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px){ 
+    .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .menuzord .menuzord-menu>li:hover>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li:hover>a {
+        border-bottom: 1px solid #62D35D;
+    }
+}
+@media (max-width: 767px){ 
+    .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .menuzord .menuzord-menu>li:hover>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li:hover>a {
+        border-bottom: 1px solid #62D35D;
+    }
+    div#rev_slider_1_1_wrapper {
+        margin: 47px auto 0px!important;
+    }
+    .checkup-content-area ul li:nth-child(2) {
+        margin: 0 10px 0;
+    }
+    a.btn.xplus-btn-round.company_btn {
+        float: none;
+    }
+    .service_text {
+        padding: 0 15px;
+    }
+    .start_trial {
+        padding: 55px 0px 75px;
+        text-align: center;
+    }  
+    .trial_content{
+        float: none;
+    }
+    .trial_content {
+        float: none;
+        padding-bottom: 20px;
+    }
+    .start_trial .trial_content h3 {
+        font-size: 24px;
+    }
+    .about-compnay {
+        padding: 100px 0px 95px;
+        text-align: center;
+    }
+    .company_section_title {
+        margin-top: 50px;
+    }
+    .testimonial_area {;
+        padding: 80px 0;
+        margin-top: -1px;
+    }
+    .testimonial_info p {
+        width: 100%;
+    }
+    #pricing_area_seo {
+        padding-bottom: 0px;
+    }
+   .with_us_info h3 {
+        font-size: 23px;;
+    }
+    .with_us_area {
+        text-align: center;
+    }
+    .with_us_info.top_title h6 {
+        padding-bottom: 20px;
+    }
+    .start_trial .trial_content h3 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 650px){
+    .service_content {
+        padding-bottom: 10px;
+    }
+    .service_text {
+        padding: 0 5px;
+        text-align: center;
+    }
+    .service_content  .service_text h3 {
+        font-size: 15px;
+    }
+    .start_trial, .trial_content  {
+        text-align: center;
+    }
+    .start_trial .trial_content h3 {
+        font-size: 23px;
+    }
+    .client_title h3 {
+        font-size: 22px;
+    }
+    
+}
+
+@media (min-width: 480px) and (max-width: 500px){
+    .btn.xplus-btn-round.works_btn, .btn.xplus-btn-round.with_us_btn {
+        margin: 0;
+    }
+    .start_trial {
+        text-align: center;
+    }
+    .trial_content, .with_us_info.top_title {
+        width: 100%;
+        margin: 0;
+    }
+    .with_us_area {
+        text-align: center;
+    }
+    .more_about_us, .stay_update, .quick_link {
+        padding-bottom: 50px;
+    }
+    
+}
+
+@media (max-width: 479px) {
+    .tp-caption .btn.xplus-btn-round{
+        margin: 0;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+  
+    .page-section {
+        padding: 82px 0 62px;
+    }
+    .single_feature p, .tab-content p, .choose_text p, 
+    .service_text p, .member_text p, .Package_type, 
+    .testimonial_info p, .colorWh, .footer_content p {
+        font-size: 13px;
+    }
+    .checkup_cont h3 {
+        font-size: 25px;
+    }
+    .checkup-content-area ul li:first-child {
+        width: 100%;
+    }
+    .checkup-content-area ul li:nth-child(2) {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .checkup-content-area ul li:nth-child(3) {
+        width: 85%;
+        margin-left: 20px;
+    }
+    .service_content {
+        padding-bottom: 12px;
+    }
+    .service_text {
+        padding: 0 15px;
+    }
+    .trial_content, .with_us_info.top_title {
+        width: 100%;
+        margin: 0;
+    }
+    .start_trial{
+        padding: 70px 0px 65px;
+    }
+    .start_trial .trial_content h3 {
+        font-size: 22px;
+    }
+    .choose_slider {
+        margin-bottom: 10px;
+    }
+    .choose_single_img {
+        display: none;
+    }
+    .about-compnay {
+        padding: 80px 0px 75px;
+    }
+    p.company_info {
+        margin: -34px 0 15px;
+    }
+    .testimonial_area {
+        padding: 50px 0;
+        margin-top: -1px;
+    }
+    .client_title h3 {
+        font-size: 20px;
+    }
+    .pricing_bg_color.hover_box {
+        margin-bottom: 30px;
+        padding: 50px 0;
+    }
+    
+    .price_icon_seo,
+    .price_icon_active_seo {
+        font-size: 14px;
+        height: 45px;
+        line-height: 47px;
+    }
+    .price_feature {
+        padding: 0 0 30px;
+    }
+    #blog_area_seo {
+        margin-top: -26px;
+    }
+    .section_title.blog_section_title{
+        margin-bottom: -10px;
+    }
+    .with_us_wrapper {
+        text-align: center;
+    }
+    .with_us_info h3 {
+        font-size: 20px;
+    }
+    .footer_area {
+        padding-top: 90px;
+    }
+    .title_underline {
+        margin-bottom: 15px;
+    }
+    .more_about_us, .stay_update, .quick_link {
+        padding-bottom: 35px;
+    }
+    .quick_link_list li {
+        display: inline-block;
+    }
+    .quick_link_list li a {
+        margin: 0 8px;
+    }
+    .quick_link_list li a i {
+        margin-right: 6px;
+    }
+    .footer_left_icon {
+        margin: 0 0 5px -8px;
+    }
+    .xplus-form-valid.contact-form{
+        margin: -22px 0 15px;
+    }
+    
+}
+
+
+

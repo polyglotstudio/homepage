@@ -1,0 +1,259 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+/*
+************************************************
+       == Btn CSS Start ==
+************************************************ 
+*/
+/*
+************************************************
+       == Header CSS Start ==
+************************************************ 
+*/
+.center-logo {
+    margin-top: 45px;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+}
+
+/*
+************************************************
+       == Hero CSS==
+************************************************ 
+*/
+.hero_area{
+    background-image: url(../../images/slider-image/portfolio.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative
+}
+.hero_area .slider-content {
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.hero_area .slider-content .cd-intro {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.cd-intro h1 {
+    color: #fff;
+    font-size: 72px;
+    line-height: 100px;
+    font-family: 'proxima_nova_rgbold';
+}
+
+.scroll_down  a {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+/* -------------- Primary style ------------- */
+.cd-words-wrapper {
+  position: relative;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+
+/* ----------- Amimated Headline --------------- */
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #aebcb9;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}
+
+/* ------ Socail Css -----*/
+.social_icon {
+    margin-top: 22px;
+    float: none;
+}
+.social_icon ul li {
+    padding-right: 5px;
+    display: inline-block;
+}
+.social_icon ul li a {
+    color: #fff;
+    text-align: center;
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.social_icon ul li a:hover {
+    background: #2196f3;
+}
+.social_icon ul li:nth-child(1), .social_icon ul li:nth-child(2){
+    font-size: 14px;
+}
+.social_icon ul li:nth-child(3){
+     font-size:12px;
+}
+.social_icon ul li:nth-child(4){
+      font-size: 14px;
+}
+.social_icon ul li:nth-child(5){
+      font-size: 17px;
+}
+.social_icon ul li a:hover {
+    background: #2196f3;
+}
+
+/*
+************************************************
+       == Portfolio CSS Start ==
+************************************************ 
+*/
+
+/* ------ Portfolio title -----*/
+.section_title{
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 60px
+}
+.section_title h3{
+    font-size: 36px;
+}
+.portfolio-filter li.active{
+    background: #2196f3;
+}
+.grid figure figcaption i:hover, .grid-gallery figcaption h3 a:hover, .grid-gallery figcaption p a:hover {
+    color: #2196f3;
+}
+a.btn.xplus-btn {
+    margin: 60px 0 5px;
+    background: #2196f3;
+}
+/*
+************************************************
+       == Footer CSS Start ==
+************************************************ 
+*/
+.footer_area {
+    padding: 115px 0 95px;
+}
+.footer_logo img{
+    height: 50px;
+}
+.footer_logo {
+    width: 185px;
+    margin: auto;
+}
+.footer_icon li, .footer_menu li:after, .footer_menu li:before, span.scroll_top_up{
+    background: #2196f3;
+}
+ .copyright_section p a, .footer_menu li a:hover {
+    color: #2196f3;
+}
+
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+
+@media (max-width: 767px){
+    .btn.xplus-btn{
+        height: 50px;
+        line-height: 50px;
+    }
+    .cd-intro h1 {
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .hero_area, .hero_area .slider-content {
+        height: 400px;
+    }
+    .cd-intro h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

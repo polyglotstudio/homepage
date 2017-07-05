@@ -1,0 +1,724 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+
+/*
+************************************************
+            == Color Presets ==
+************************************************ 
+*/
+
+.menuzord-menu ul.dropdown li.active>a,
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a,
+.menuzord-menu>li>.megamenu .megamenu-row li.active>a,
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li.active>a>i,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu>li:hover>a>i,
+.main_content p a,
+.pricing_bg_color:hover
+.plan-price h3, 
+.pricing_bg_color.active
+.plan-price h3,
+.single_feature i,
+.copyright p a,
+.latest_tweets_info p i,
+.quick_link_list li a:hover,
+.latest_tweets_info p a:hover,
+.footer_menu_bottom ul li a:hover{
+    color: #66bb6a!important;
+}
+
+.xplus-btn,
+.input-field-modal button,
+.nav-boxed-color .menuzord-menu > li.active > a,
+.nav-boxed-color .menuzord-menu > li:hover > a,
+.social_icon ul li a:hover,
+.input-field-modal button,
+.single_count:hover .count_icon,
+.pricing_bg_color.active .price_icon, 
+.pricing_bg_color:hover .price_icon, 
+.footer_left_icon li a:hover, 
+.scroll-up-footer .scroll_top_up,
+.btn.xplus-btn.footer-subscribe-btn, 
+.footer-subscribe-btn:focus,
+.footer_menu_bottom ul li a:after,
+.footer_menu_bottom ul li a:before,
+.progress-bar{
+    background: #66bb6a!important;
+}
+
+.menuzord-menu ul.dropdown li >a::before,
+.menuzord-menu>li>.megamenu .megamenu-row li >a::before {
+    background-color: #66bb6a!important;
+}
+
+.nav-border-box .menuzord-menu > li.active > a,
+.nav-border-box .menuzord-menu > li:hover > a{
+    border:1px solid #66bb6a;
+}
+.nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+.nav-border-bottom .menuzord .menuzord-menu>li:hover>a{
+    
+    border-bottom: 3px solid #66bb6a;
+}
+
+/*
+************************************************
+        == Padding CSS Start ==
+************************************************ 
+*/
+
+#service {
+    padding: 80px 0;
+}
+.service_content{
+    padding: 0 0 28px;
+}
+.about_us_promo {
+    padding-bottom: 90px;
+}
+.pricing_area.page-section {
+    padding-bottom: 132px;
+}
+
+.price_feature {
+    padding: 38px 0 10px;
+}
+.blog_area {
+    padding-bottom: 110px;
+}
+.promo_area {
+    padding: 80px 0 60px;
+}
+
+
+/*
+************************************************
+        == Navigation CSS Start ==
+************************************************ 
+*/
+.tiny_header {
+    z-index: 2;
+    position: relative;
+}
+
+/*
+************************************************
+        == Hero CSS Start ==
+************************************************ 
+*/
+.hero_area{
+    background-image: url(../../images/slider-image/corporate-1.jpg);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero_area:before {
+    content: "";
+    background-color: rgba(35, 35, 40, .5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.hero_area .slider-content {
+    display: table;
+    height: 100vh;
+    margin-top: -25px;
+    padding-top: 65px;
+}
+.hero_area .slider-content .cd-intro {
+    display: table-cell;
+    vertical-align: middle;
+}
+.cd-intro h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 100px;
+    font-family: 'proxima_nova_rgbold';
+    text-transform: capitalize;
+}
+.slider-content p{
+    margin: -8px 0 45px;
+    line-height: 26px;
+    color: #ddd;
+    max-width: 500px;
+}
+
+/* -------------- Primary style ------------- */
+.cd-intro {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+
+/* -------------- Animated Headline ------------- */
+
+.cd-headline.rotate-1 .cd-words-wrapper {
+  -webkit-perspective: 300px;
+  perspective: 300px;
+}
+.cd-headline.rotate-1 b {
+  opacity: 0;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+.cd-headline.rotate-1 b.is-visible {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-animation: cd-rotate-1-in 1.2s;
+  animation: cd-rotate-1-in 1.2s;
+}
+.cd-headline.rotate-1 b.is-hidden {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  -webkit-animation: cd-rotate-1-out 1.2s;
+  animation: cd-rotate-1-out 1.2s;
+}
+
+@-webkit-keyframes cd-rotate-1-in {
+  0% {
+    -webkit-transform: rotateX(180deg);
+    opacity: 0;
+  }
+  35% {
+    -webkit-transform: rotateX(120deg);
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+    opacity: 1;
+  }
+}
+@keyframes cd-rotate-1-in {
+  0% {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    opacity: 0;
+  }
+  35% {
+    -webkit-transform: rotateX(120deg);
+    transform: rotateX(120deg);
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes cd-rotate-1-out {
+  0% {
+    -webkit-transform: rotateX(0deg);
+    opacity: 1;
+  }
+  35% {
+    -webkit-transform: rotateX(-40deg);
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(180deg);
+    opacity: 0;
+  }
+}
+@keyframes cd-rotate-1-out {
+  0% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  35% {
+    -webkit-transform: rotateX(-40deg);
+    transform: rotateX(-40deg);
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    opacity: 0;
+  }
+}
+
+/*
+************************************************
+        == Service CSS Start ==
+************************************************ 
+*/
+.service_area{
+    background: #fff;
+    border-bottom: none;
+}
+
+.sercice_img img {
+    width: 100%;
+}
+.feature_info:before {
+    border-bottom: 1px solid #66bb6a;
+}
+
+/*
+************************************************
+         == Quality CSS Start ==
+************************************************ 
+*/
+
+.about_us_promo_content {
+    border-top: 1px solid #dddddd;
+    padding: 110px 0 0;
+}
+.promo_section_title {
+    margin-bottom: 0;
+}
+.main_content p {
+    color: #888888;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+    margin: 44px 0px;
+}
+
+/*
+************************************************
+         == Counter CSS Start ==
+************************************************ 
+*/
+.counterup_area{
+    background-image: url(../../images/corporate-count.jpg);
+     padding: 136px 0 126px;
+}
+.count_content{
+    border-top: none;
+}
+.count_icon{
+    background: #fff;
+}
+.count_icon span{
+    color: #66bb6a;
+}
+.single_count:hover .count_icon span{
+	color: #fff;
+}
+.count_text h3{
+    color: #fff;
+}
+.count_text p{
+    color: #eee;
+}
+
+/*
+************************************************
+         == Blog CSS Start ==
+************************************************ 
+*/
+.blog_item {
+    margin: 2px 0 2px 2px;
+    padding: 0px 0 30px 0px;
+   width: auto;
+    
+}
+.blog_img {
+    display: block;
+}
+.blog_cont {
+    display: block;
+    width: auto;
+    padding:36px 30px 0px 30px;
+}
+.blog_cont hr {
+    margin: 12px 0;
+}
+.blog_cont a {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgbold';
+    margin: 2px 0 16px;
+}
+.blog_s {
+    margin-bottom: 5px;
+}
+.colorWh {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+/*
+************************************************
+       == Pricing CSS Start ==
+************************************************ 
+*/
+
+.pricing_bg_color {
+    height: 425px;
+}
+.price_btn {
+    margin-top: 35px;
+}
+
+/*
+************************************************
+       == Projet CSS Start ==
+************************************************ 
+*/
+.blog_item:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 30px;
+}
+
+/*
+************************************************
+       == Projet CSS Start ==
+************************************************ 
+*/
+.promo_area {
+    background: #f8f8f8;
+}
+.promo_wrapper {
+    border-radius: 3px;
+    width: 100%;
+}
+.promo_info h3{
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 24px;
+    font-family: 'proxima_nova_rgbold'
+}
+.promo_info h6 {
+    font-size: 15px;
+    color: #888888;
+    font-family: 'proxima_nova_rgregular';
+}
+
+/*
+************************************************
+        == Footer CSS Start ==
+************************************************ 
+*/
+.footer_area .xplus-btn{
+    margin-left: -12px;
+}
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+   
+    .btn-primary {
+        margin: 25px 55px 0 40px;
+    }  
+    .service_text {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .service_content {
+        padding-bottom: 20px;
+    }
+    .blog_item .blog_img, .blog_item .blog_cont {
+        width: 100%;
+    }
+    .blog_item .blog_cont {
+        padding: 34px 0 0 10px;
+    }
+    .blog_item .colorWh {
+        max-width: 100%;
+    }
+    .main_content p {
+        margin: 25px 0px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .menuzord .menuzord-menu>li.active>a,
+    .menuzord .menuzord-menu>li.active>a>i, 
+    .menuzord .menuzord-menu>li:hover>a,
+    .menuzord .menuzord-menu>li:hover>a>i
+    .menuzord-menu ul.dropdown li a:hover,
+    .menuzord-menu ul.dropdown li.active a,
+    .nav-border-bottom .menuzord .menuzord-menu>li.active>a{
+        color: #66bb6a!important;
+    }
+    button.btn.btn-primary {
+        margin-top: 30px;
+    }
+
+    .modal-content {
+        width: 60%;
+        margin-left: 10%;
+    }
+    .service_content {
+        padding-bottom: 16px;
+    }
+    .service_text {
+        width: 100%;
+    }
+    .service_text p {
+        padding: 0 5px;
+    }
+    .counterup_area {
+        padding: 80px 0 60px;
+    }
+
+    .single_feature.feature_info p {
+        padding: 0 10px;
+        margin: 0;
+        width: 100%;
+    } 
+    .promo_info h3 {
+        font-size: 22px;
+    }
+    .main_content p {
+        margin: 15px 0px;
+    }
+    .single_count .count_text {
+        margin: 0 4px;
+    }
+    .pricing_area.page-section {
+        padding-bottom: 80px;
+    }
+    .blog_area .blog_item, .blog_img img, .blog_item .blog_cont {
+        width: 100%;
+    }
+    .blog_cont a {
+        font-size: 17px;
+    }
+    .blog_item .blog_cont {
+        padding: 25px 6px 10px 6px;
+    }
+}
+@media (max-width: 768px){ 
+    .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .menuzord .menuzord-menu>li:hover>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li:hover>a {
+        border-bottom: 1px solid #66bb6a;
+    }
+}
+@media (max-width: 767px){ 
+    .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .menuzord .menuzord-menu>li:hover>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li.active>a,
+    .nav-border-bottom .brand-header .menuzord .menuzord-menu>li:hover>a {
+        border-bottom: 1px solid #66bb6a;
+    }
+    .single_feature {
+        padding: 0;
+        height: 100%;
+        margin: 40px 0 20px;
+    }
+    .service_content {
+        padding: 0 0 20px;
+    }
+    .service_text {
+        padding: 0 5px;
+        width: 100%;
+    }
+    .single_feature.feature_info:after {
+        top: 60px;
+    }
+    .blog_area {
+        padding-bottom: 80px;
+    }
+    .blog_area .blog_item {
+        width: 100%;
+        margin: 0 0 50px 0px
+    }
+    .blog_cont {
+        padding: 36px 30px 15px 30px;
+    }
+    .promo_area {
+        text-align: center;
+    }
+    .promo_section_title {
+        margin: 40px 0 0;
+    } 
+    .page-section {
+        padding: 85px 0;
+    }
+    #service {
+        padding-bottom: 60px;
+    }
+    .about_us_promo{
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    .about_us_promo_content {
+        padding-top: 90px;
+    }
+    .counterup_area {
+        padding: 78px 0 25px;
+    }
+    .count_text{
+        margin: -12px 0 40px 15px;
+        text-align: left;
+    }
+    .pricing_area.page-section {
+        padding-bottom: 50px;
+    }
+    #blog {
+        padding-bottom: 40px;
+    }
+    .promo_info.top_title {
+        padding-bottom: 15px;
+    }
+    .quick_link_list li {
+        border-bottom: 1px solid #343439;
+    }
+
+}
+
+@media (max-width: 630px){
+    .cd-intro h1 {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .slider-content p {
+        margin: 20px 0 31px;
+    }
+    .service_content .service_text h3 {
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 480px) and (max-width: 500px){
+    .hero_area {
+        height: 550px;
+    }
+    .hero_area .slider-content{
+        height: 500px;
+    }
+    .sercice_img img {
+        width: 100%;
+    }
+    .pricing_bg_color .price_btn {
+        margin-top: 42px;
+    }
+}
+
+@media (max-width: 479px) {
+    .btn.xplus-btn{
+        height:50px!important;
+        line-height: 50px!important;
+    }
+     .hero_area {
+        height: 500px;
+    }
+    .hero_area .slider-content{
+        height: 500px;
+        margin: 0;
+    }
+    .cd-intro h1 {
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .slider-content p {
+        margin: 20px 0;
+        max-width: 100%;
+        font-size: 15px;
+    }     
+    .tiny_header {
+        display: none;
+    }
+    .sercice_img img {
+        width: 100%;
+    }
+    .single_feature.feature_info {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        margin: 16px 0 0;
+    }
+    .single_feature.feature_info p {
+        padding: 0 20px;
+    }
+    .price_icon {
+        font-size: 18px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .blog_item .blog_cont {
+        padding: 20px 5px 0 10px;
+    }
+    .promo_info h6 {
+        font-size: 14px;
+    }
+    .promo_info h3{
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .more_about_us, .stay_update, .quick_link {
+        padding-bottom: 40px;
+    }
+    .matx-form-valid.contact-form {
+        margin: -25px 0 25px;
+    }
+    .count_text{
+        text-align: center;
+    }
+    .quick_link_list li {
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

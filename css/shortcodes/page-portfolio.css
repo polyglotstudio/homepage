@@ -1,0 +1,148 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 05-Jan-2017
+------------------------------------------*/
+
+
+
+/* ============================ Inner Page Portfolio CSS ================================= */
+
+.portfolio_area .container {
+    width: 100%;
+    padding: 0;
+}
+
+.grid-item {
+    padding: 0;
+}
+
+.portfolio_area {
+    padding-bottom: 0;
+    top: calc(50% - 50px);
+}
+.portfolio_details_bg {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.portfolio-overlay:hover .portfolio_details_bg {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+.portfolio_details_bg p a {
+    color: #888;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+    text-transform: capitalize;
+}
+
+.portfolio_details_bg h3 a {
+    color: #333;
+    font-size: 24px;
+    font-family: 'proxima_nova_rgbold';
+}
+
+.portfolio_details_bg h3 {
+    margin: -15px 0 22px;
+}
+
+a.portfolio_btn {
+    color: #99ca3c;
+    font-size: 13px;
+    text-transform:capitalize;
+    font-family: 'proxima_nova_rgregular';
+    border: 1px solid #99ca3c;
+    height: 40px;
+    width: 130px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.single_mixitup_content:hover .portfolio_details {
+    top: 0;
+}
+
+.portfolio-hover {
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+/*--- hover effect ---*/
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.portfolio-hover {
+    top: calc(50% - 50px);
+}
+
+.hovereffect .portfolio-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .95);
+    border: 10px solid #99ca3c;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.hovereffect:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-overlay:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .portfolio-hover {
+        top: calc(50% - 40px);
+    }    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .portfolio-hover {
+        top: calc(50% - 30px);
+    }
+    .portfolio_details_bg p a {
+        font-size: 12px;
+    }
+    .portfolio_details_bg h3 {
+        margin: -22px 0 0;
+    }
+    .portfolio_details_bg h3 a {
+        font-size: 16px;
+    }
+    a.portfolio_btn {
+        height: 32px;
+        line-height: 32px;
+    }
+
+}
+
+

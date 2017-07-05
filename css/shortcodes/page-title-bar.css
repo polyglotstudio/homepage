@@ -1,0 +1,57 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 05-Jan-2017
+------------------------------------------*/
+
+/*
+************************************************
+         == Title CSS==
+************************************************ 
+*/
+
+.title_bar {
+    background: #f8f8f8;
+    padding: 145px 0 45px;
+    text-align: center;
+}
+.title_bar h2 {
+    color: #1d1d22;
+    font-size: 36px;
+}
+.breadcrumb{
+    background-color:transparent;
+    -webkit-transition: 5s;
+    transition: 5s;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.breadcrumb li a{
+    color: #99CA3C; 
+}
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+@media (max-width: 768px){
+    .title_bar {
+        padding: 55px 0 45px;
+    }
+    
+}
+@media (max-width: 767px){
+    .title_bar {
+        padding: 100px 0 45px;
+    }
+    
+}

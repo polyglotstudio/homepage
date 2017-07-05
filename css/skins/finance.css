@@ -1,0 +1,1260 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+/*
+************************************************
+            == Color Presets ==
+************************************************ 
+*/
+#header .header-default,
+.tt-nav.sticky .header-default,
+#header.transparent-header.sticky .header-default,
+.light-nav{
+    background: #2a68b4!important;
+    box-shadow: none;
+}
+.hero_content p a,
+.menuzord-menu ul.dropdown li:hover>a,
+.menuzord-menu ul.dropdown li.active>a,
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a,
+.menuzord-menu>li>.megamenu .megamenu-row li.active>a,
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li.active>a>i,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu>li:hover>a>i,
+.client_testimonial_3column_info:after,
+.footer_left_icon li a:hover{
+    color: #fff!important;
+}
+.nav-border-box .menuzord-menu > li.active > a,
+.nav-border-box .menuzord-menu > li:hover > a{
+    border:1px solid #2a68b4;
+}
+.input-field-modal button,
+.nav-boxed-color .menuzord-menu > li.active > a,
+.nav-boxed-color .menuzord-menu > li:hover > a{
+    background: #2a68b4!important;
+}
+.menuzord-menu ul.dropdown li >a::before,
+.menuzord-menu>li>.megamenu .megamenu-row li >a::before {
+    background-color: #2a68b4!important;
+}
+
+/*
+************************************************
+            == Focus ==
+************************************************ 
+*/
+input[type=tel].valid,
+input[type=email].valid, 
+.section_common_space input[type=text]:focus:not([readonly]), 
+.section_common_space input[type=email]:focus:not([readonly]),
+.section_common_space input[type=number]:focus:not([readonly]),
+textarea.massage_textarea:focus:not([readonly]),
+.section_common_space input[type=tel]:focus:not([readonly]){
+    border-bottom: 1px solid #2a68b4;
+    box-shadow: 0 1px 0 0 #2a68b4; 
+}
+
+.upgraded_field input[type=email]:focus:not([readonly])+label, 
+.upgraded_field input[type=text]:focus:not([readonly])+label, 
+.upgraded_field input[type=number]:focus:not([readonly])+label, 
+textarea.massage_textarea:focus:not([readonly])+label,
+input[type="tel"]:focus:not([readonly])+label{
+    color: #2a68b4;
+}
+
+.upgraded_field input[type=email].invalid, 
+.upgraded_field input[type=email]:focus.valid, 
+.upgraded_field input[type=number].valid, 
+.upgraded_field input[type=number]:focus.invalid, 
+.upgraded_field input[type=text].valid, 
+.upgraded_field input[type=text]:focus.valid{
+    border-bottom: 1px solid #2a68b4;
+    box-shadow: 0 1px 0 0 #2a68b4; 
+}
+/*
+************************************************
+            == Home Btn CSS ==
+************************************************ 
+*/
+.btn.xplus-btn{
+    background: #2A68B4;
+}
+.xplus-btn-2{
+    background: #fff;
+    color:#2A68B4;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 170px;
+    height: 55px;
+    line-height: 58px;
+    padding: 0;
+    margin: 0px;
+}
+
+.video_finance_btn{
+    background: #ffffff;
+    color: #222222;
+    width: 170px;
+}
+.hero_btn_right:hover{
+    color: #fff;
+}
+
+a.btn.xplus-btn.video_finance_btn {
+    background: #fff;
+    color: #2A68B4;
+}
+a.btn.projet_btn {
+    color: #333333;
+    background: #fff;
+    font-size: 14px;
+    width: 200px;
+}
+a.btn.xplus-btn.projet_btn:focus {
+    background: #fff;
+    color: #333;
+}
+.btn.xplus-btn.subscribe-btn {
+    background: #2A68B4;
+    color: #ffffff;
+    width: 170px;
+}
+.subscribe-btn:focus, .subscribe-btn:hover {
+    color: #fff;
+    background: #2A68B4;
+}
+.slidecenter i,
+.content_left_text i,
+.btn.projet_btn i{
+    font-size: 22px;
+    margin: 0px 23px 0 -7px;;
+    float: right;
+}
+
+/*
+************************************************
+         == Header CSS Start ==
+************************************************ 
+*/
+
+/* ------ Tiny header Css -----*/
+.header_area{
+    position: relative;
+}
+#header .logo{
+    display: none;
+}
+.tiny_header {
+    background: #1d1d22;
+    height: 45px;
+}
+.tiny_left {
+    float: left;
+}
+.tiny_left p {
+    color: #dddddd;
+    font-size: 13px;
+    font-family: 'proxima_nova_rgregular';
+    margin-top: 7px;
+}
+.tiny_right {
+    float: right;
+}
+.tiny_right ul {
+    padding: 12px 24px 0;
+}
+.tiny_right ul li{
+    display: inline-block;
+}
+.tiny_right ul li:first-child {
+    position: relative;
+}
+.tiny_right ul li:first-child:after{
+    border-right: 2px solid #ddd;
+    height: 12px;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    margin: 4px -3px;
+}
+.tiny_right ul li a {
+    color: #dddddd;
+    font-size: 13px;
+    font-family: 'proxima_nova_rgregular';
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.social_icon {
+    float: right;
+    margin-right: -15px;
+}
+.social_icon ul li {
+    padding-right: 5px;
+    display: inline-block;
+    line-height: 42px;
+}
+.social_icon ul li a {
+    color: #888888;
+    text-align: center;
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.social_icon ul li a:hover {
+    background: #2a68b4;
+    color: #fff;
+}
+.social_icon ul li:nth-child(1), 
+.social_icon ul li:nth-child(2),
+.social_icon ul li:nth-child(4){
+    font-size: 14px;
+    padding-top: 2px;
+}
+.social_icon ul li:nth-child(3){
+     font-size:13px;
+}
+
+
+/*--------- Info Bar Css -----*/
+.logo-brand {
+    margin: -17px 30px 0 0;
+}
+.logo-brand img {
+    height: 40px;
+}
+.info_bar {
+    background: #f8f8f8;
+}
+.info_bar_right {
+    float: right;
+    margin: 15px -58px 20px;
+}
+.top_contact_icon i,  .top_contact_icon i {
+    float: left;
+    font-size: 24px;
+    color: #2a68b4;
+    width: 15%;
+}
+.top_contact_icon i{
+    margin: 10px 0 0 -15px;
+}
+.top_contact_icon i {
+    margin: 10px 0 0 -15px;
+}
+.top_contact_icon p, .top_contact_icon ul li a  {
+    float: right;
+    width: 85%;
+    line-height: 14px;
+    font-size: 13px;
+    font-family: 'proxima_novasemibold';
+    color: #666666;
+}
+.top_contact_icon:first-child {
+    margin-right: 55px;
+    border-left: none;
+}
+.top_contact_icon {
+    float: left;
+    padding: 0 0 0 55px;
+    border-left: 1px solid #ddd;
+}
+.top_contact_icon ul li a {
+    line-height: 22px;
+}
+
+/*--------- Navegation Css -----*/
+.header {
+    background: #272E34;
+}
+.menuzord {
+    background: none;
+    float: left;
+    padding:0 220px!important;
+}
+.menuzord-menu>li {
+    margin-left: 0px;
+}
+.menuzord-menu > li > a {
+    line-height: 60px;
+    font-size: 14px;
+    color: #eee;
+    padding: 0 15px;
+}
+.menuzord-menu.menuzord-right{
+    float: none;
+}
+.pull-right{
+    float: none!important;
+}
+
+.header-sticky{
+    position: inherit;
+}
+
+/*--------- Search Modal Css-----*/
+.btn-search {
+    background: none;
+    box-shadow: none;
+}
+.btn.btn-search i{
+    color: #fff;
+}
+.sticky .btn-search.btn-lg {
+    margin-top: 0px;
+}
+.btn-lg {
+    margin: 0;
+    padding: 15px 0 0 0;
+    box-shadow: none;
+}
+
+
+/*
+************************************************
+         == Slider CSS Start ==
+************************************************ 
+*/
+.text-center{
+    text-align: center!important;
+}
+.text-right{
+    text-align: right!important;
+}
+.rev-subheading{
+    font-family: 'proxima_nova_rgregular';
+    line-height: 30px;
+    font-size: 18px;
+    color: #eee;
+}
+
+/*
+************************************************
+       = Service CSS Start ==
+************************************************ 
+*/
+.service_finance_area {
+    background: #fff;
+    padding: 110px 0 65px;
+}
+.service_finance_single {
+    padding: 0px;
+}
+.service_finance_img img {
+    width: 100%;
+}
+.service_finance_text {
+    width: 100%;
+    text-align: left;
+    padding: 40px 0px;
+}
+.service_finance_text h3{
+    color: #333333;
+    font-size: 20px;
+    font-family: 'proxima_novasemibold';
+    margin: 0;
+}
+.service_finance_text p {
+    margin: 20px 0 0;
+    color: #888888;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.service_finance_text a {
+    color: #888;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #888;
+    text-align: center;
+}
+.service_finance_text i {
+    color: #888888;
+    font-size: 15px;
+    margin-left: 4px;
+}
+.service_finance_text a:hover{
+    color:#2A68B4;
+    border-bottom:1px solid #2A68B4;
+}
+
+/*
+************************************************
+         == Project CSS Start ==
+************************************************ 
+*/
+.project_area {}
+.project_area .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.project_area h3 {
+    color: #333333;
+    font-size: 28px;
+    font-family: 'proxima_nova_rgbold';
+    text-align: center;
+    margin-bottom: 60px;
+}
+.project_img {
+    width: 25%;
+    float: left;
+    overflow:hidden;
+    position:relative;
+}
+.img-responsive {
+    width: 100%;
+}
+.project_img .project-overlay {
+    width:100%;
+    height:60px;
+    position:absolute;
+    overflow:hidden;
+    bottom: 10px;
+    left:0;
+    opacity:0;
+    background-color:#2A68B4;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    text-align: center;
+    line-height: 60px;
+}
+.project_img:hover .project-overlay{
+    opacity:1;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.project-overlay a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'proxima_novasemibold';
+}
+
+/*
+************************************************
+         == Who We Are Video Css Start ==
+************************************************ 
+*/
+.video_intro{
+    background: url(../../images/finance-video.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.video_intro:before {
+    content: "";
+    background-color: rgba(35, 35, 40, .85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.video_finance_btn {
+    margin-top: 28px;
+}
+.content_right_text p {
+    color: #eeeeee;
+    font-size: 14px;
+    margin-top: -14px;
+    font-family: 'proxima_nova_rgregular';
+}
+.content_right_text h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'proxima_nova_rgbold';
+}
+a.video-autoplay-true {
+    display: inline-block;
+    font-size: 48px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2A68B4;
+    box-shadow: 0 5px 10px -3px rgba(0,0,0,.5);
+    height: 85px;
+    width: 85px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid #fff; 
+    box-shadow: none;
+}
+a.video-autoplay-true i {
+    background: none;
+    color: #ffffff;
+    font-size: 48px;
+}
+.video_intro, .content_left {
+    float: left;
+    width: 50%;
+}
+.content_left {
+    background: #2A68B4;
+    height: 500px;
+    padding: 100px 0 0 10%;
+}
+.who_we_are_content {
+    height: 500px;
+}
+.content_right {
+    padding: 175px 10%;
+    text-align: center;
+}
+.content_right_text {
+    margin-top: 25px;
+}
+.content_left_text h6 {
+    color: #eee;
+    font-size: 16px;
+    font-family: 'proxima_novasemibold';
+}
+.content_left_text h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'proxima_nova_rgbold';
+    margin: -8px 0 38px;
+}
+.content_left_text p {
+    color: #eeeeee;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+    max-width: 484px;
+    margin-bottom: 30px;
+}
+
+
+/*
+************************************************
+         == Testimonial CSS Start ==
+************************************************ 
+*/
+.testimonial_area {
+    background-image: none;
+    padding: 110px 0 140px;
+}
+.finance_testimonial_title {
+    text-align: center;
+}
+.section_title h3 {
+    color: #333333;
+    font-size: 25px;
+    font-family: 'proxima_nova_rgbold';
+    margin: -3px 0 12px;
+    text-transform: uppercase;
+}
+.section_title {
+    margin-bottom: 60px;
+}
+.testimonial_title_subtitle p {
+    max-width: 365px;
+}
+.testimonial_details {
+    text-align: center;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 0 15px;
+    padding: 42px 0;
+}
+.testimonial_img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.finance_testimonial_title h4 {
+    color: #222222;
+    font-size: 16px;
+    font-family: 'proxima_nova_rgbold';
+    margin: 20px 0 4px;
+}
+.finance_testimonial_title span {
+    color: #888888;
+    font-size: 13px;
+    font-family: 'proxima_nova_rgregular';
+}
+.finance_testimonial_info p {
+    color: #888888;
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular';
+    max-width: 320px;
+    margin: 0 auto;
+}
+.testimonial_section_title {
+    margin-bottom: 110px;
+}
+.contact_section_title {
+    margin-bottom: 38px;
+}
+.testimonial_content_finance .owl-controls {
+    top: 35px;
+    text-align: center;
+    position: relative; 
+}
+.testimonial_content_finance .owl-dot {
+    width: 15px;
+    height: 4px;
+    background: #dddddd;
+    border-radius: 5px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.testimonial_content_finance .owl-dot.active {
+    background: #2a68b4;
+    width: 30px;
+    
+}
+
+/*
+************************************************
+         == Client CSS Start ==
+************************************************ 
+*/
+.client_area_title h3 {
+    color: #333333;
+    font-size: 28px;
+    font-family: 'proxima_nova_rgbold';
+    text-align: left;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+}
+.client_image_construction .owl-prev, 
+.client_image_construction .owl-next{
+    color: #aaa;
+    position: absolute;
+    font-size: 30px;
+    top: 12px;
+    width: 0;
+}
+
+.client_image_construction .owl-prev {
+    left: -78px;
+}
+.client_image_construction .owl-next {
+    right: -60px;
+}
+
+/*
+************************************************
+       = Projet CSS Start ==
+************************************************ 
+*/
+.promo_area {
+    background: #2A68B4;
+    padding: 80px 0px 58px;
+}
+.promo_wrapper {
+    border-radius: 3px;
+    width: 100%;
+}
+.promo_content h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'proxima_nova_rgbold';
+    margin-bottom: 12px;
+}
+.promo_content h6 {
+    font-size: 16px;
+    color: #eeeeee;
+    font-family: 'proxima_nova_rgregular';
+}
+
+/*
+************************************************
+       = Request a call back CSS Start ==
+************************************************ 
+*/
+#contact {
+    padding: 110px 0;
+}
+.contact_area {
+    border-bottom: 1px solid #ddd;
+}
+.contact_section_title{
+    text-align: center;
+}
+.contact_title_subtitle p{
+    max-width: 770px;
+    margin: auto;
+}
+.btn.send-btn {
+    background: #2a68b4; 
+    float: right;
+}
+
+
+.btn.xplus-btn span {
+    margin-left: 8px; 
+    font-size: 12px; 
+}
+
+/*
+************************************************
+         == Blog CSS Start ==
+************************************************ 
+*/
+#blog {
+    padding: 110px 0;
+}
+.blog_item_single {
+    margin: 0px;
+    padding: 0px 0 0 0;
+    text-align: left;
+    width: auto;
+    
+}
+.blog_img {
+    display: block;
+}
+.blog_content {
+    display: block;
+    width: auto;
+    padding:30px 25px 30px 25px;
+}
+.blog_content hr {
+    margin: 15px 0;
+}
+.blog_content > a {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgbold';
+    margin: 2px 0 16px;
+}
+.blog_icons {
+    margin-bottom: 5px;
+}
+.colorWh {
+    max-width: 100%;
+    margin: 0px 0px -12px 0px;
+}
+.blog_content_foot {
+    margin-top: 18px;
+}
+.blog_content .blog_content_foot a {
+    color: #888888;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #888;
+}
+.blog_content_foot a:hover {
+    color: #2A68B4;
+    border-bottom: 1px solid #2A68B4;
+}
+.blog_content .blog_content_foot i{
+     margin-left: 8px;
+}
+
+/*
+************************************************
+         == Footer CSS Start ==
+************************************************ 
+*/
+.quick_link {
+    float: right;
+}
+.copyright {
+    float: none;
+}
+.footer_left_icon li a:hover {
+    background: #2A68B4;
+}
+.quick_link_list li a:hover {
+    color: #2A68B4;
+}
+.contact-form input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #2A68B4;
+    box-shadow: 0 1px 0 0 #2A68B4;
+}
+.upgraded_h_1 input[type=email]:focus:not([readonly])+label {
+    color: #2A68B4;
+}
+.copyright p a {
+    color: #2A68B4;
+}
+.scroll-up-footer .scroll_top_up {
+    background: #2A68B4;
+}
+
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+    .content_right {
+        text-align: center;
+        padding: 170px 10%;
+    }
+    .content_right_text {
+        float: none;
+        text-align: center;
+        margin: 0 0 25px;
+    }
+    .info_bar_right {
+        margin: 15px 0px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){  
+    .top_area {
+        margin: 0 -75px;
+    }
+    .content_left_text p {
+        margin: 0 30px 30px 0;
+    }
+    .menuzord {
+        padding: 0 130px!important;
+    }
+    .info_bar_right {
+        margin: 15px 0px 20px 20px;
+    }
+    .project_area {
+        height: 100%;
+    }
+    .content_right {
+        text-align: center;
+        padding: 170px 10%;
+    }
+    .finance_testimonial_info p {
+        max-width: 270px;
+    }
+    .blog_item_single .blog_img, .blog_item_single .blog_content {
+        width: 100%;
+    }
+    .blog_item_single .blog_content {
+        padding: 25px 11px;
+    }
+    p.colorWh {
+        max-width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .header_area{
+        overflow: hidden;
+    }
+    .menuzord {
+        padding: 0px!important;
+    }
+    a.btn.xplus-btn.hero_btn_left, a.btn.xplus-btn.hero_btn_right,
+    a.btn.xplus-btn.video_finance_btn, a.btn.xplus-btn.projet_btn{
+        height: 50px;
+        line-height: 50px;
+    }
+    .info_bar_right {
+        margin: 15px 0px 20px -86px;
+    }
+    .top_contact_icon:first-child {
+        margin-right: 26px;
+    }
+    .top_contact_icon {
+        padding-left: 40px;
+    }
+    .btn-primary.btn-lg {
+        margin-left: 18px;
+    }
+    .slider-content h1 {
+        font-size: 40px;;
+    }
+    .slideright p, .slideleft p, .slidecenter p {
+        font-size: 16px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        font-size: 24px;
+        height: 40px;
+        width: 40px;
+        padding-top: 4px;
+    }
+    .project_area {
+        height: 100%;
+    }
+    .who_we_are_content, .content_left {
+        height: 450px;
+    }
+    .content_left {
+        padding: 45px 0 0 5%;
+    }
+    .content_left_text p {
+        max-width: 320px;
+    }
+    .content_right {
+        text-align: center;
+        padding: 150px 10%;
+    }
+    .single_checkcont_list a {
+        font-size: 13px;
+    }
+    .single_checkcont_list {
+        margin-top: -10px;
+    }
+    .promo_content h3 {
+        font-size: 28px;
+    }
+    .client_image_construction .owl-prev {
+        left: -20px;
+    }
+    .client_image_construction .owl-next {
+        right: -12px;
+    }
+    .blog_item_single.hover_box {
+        margin-left: 0;
+        width: 100%;
+    }
+    .blog_item_single .blog_content {
+        padding: 15px 10px;
+        text-align: center;
+    }
+    .blog_content > a {
+        font-size: 16px;
+    }
+    .blog_content hr {
+        margin: 15px auto;
+    }
+    .blog_img img {
+        width: 100%;
+    }
+    .blog_content_foot {
+        margin-left: 5px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    
+    .logo-brand {
+        margin: 0!important;
+    }
+    a.btn.xplus-btn.header_btn {
+        display: none;
+    }
+    ul.menuzord-menu {
+        background: none;
+    }
+    .menuzord-responsive .menuzord-menu>li>a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .menuzord-menu>li>a {
+        color: #eee!important;
+    }
+    .menuzord .showhide em {
+        background: #fff;
+    }
+    #header .header-default{
+        border: none;
+    }
+    .project_img {
+        width: 50%;
+    }
+
+
+}
+
+@media (max-width: 767px){
+    .btn.xplus-btn, .xplus-btn-2 {
+        width: 150px;
+        line-height: 50px;
+        height: 50px;
+    }
+    a.btn.xplus-btn.header_btn {
+        display: none;
+    }
+    ul.menuzord-menu {
+        background: none;
+    }
+    .menuzord-responsive .menuzord-menu>li>a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .menuzord-menu>li>a {
+        color: #eee!important;
+    }
+    .service_finance_area {
+        padding: 90px 0 45px;
+    }
+    .testimonial_area {
+        padding: 90px 0 120px;
+    }
+    #contact {
+        padding: 90px 0;
+    }
+    #blog {
+        padding: 90px 0 60px;
+    }
+    
+    .logo_area {
+        padding: 32px 0;
+    }
+    .header_area{
+        overflow: hidden;
+    }
+    .info_bar {
+        background: #f8f8f8;
+        margin-top: 45px;
+    }
+    .menuzord {
+        padding: 0!important;
+    }
+    .menuzord .showhide em{
+        background: #fff;
+    }
+    #header .header-default {
+        border-bottom: none;
+    }
+    .info_bar_right {
+        margin: 15px -22px 20px;
+    }
+    .top_contact_icon p, .top_contact_icon ul li a {
+        font-size: 11px;
+    }
+    .top_contact_icon:first-child {
+        margin-right: 25px;
+    }
+    .top_contact_icon {
+       padding: 10px 0 0 30px;
+    }
+    .btn.xplus-btn, .xplus-btn-2{
+        height: 50px;
+        line-height: 50px;
+    }
+    a.btn.projet_btn {
+        font-size: 13px;
+        width: 170px;
+    }
+    .project_area {
+        height: 100%;
+    }
+    .project_img {
+        width: 50%;
+    }
+    .project_img .project-overlay {
+        height: 50px;
+        line-height: 50px;
+    }
+    .content_left {
+        padding: 70px 8px 0 4%;
+    }
+    .content_left_text p {
+        font-size: 14px;
+    }
+    .choose_area img {
+        width: 100%;
+    }
+    .finance_testimonial_info p {
+        font-size: 14px;
+    }
+    .promo_content h3 {
+        font-size: 27px;
+    }
+    .client_image_construction .owl-prev {
+        left: -20px;
+    }
+    .client_image_construction .owl-next {
+        right: -20px;
+    }
+    .promo_area {
+        padding: 80px 0px 70px;
+        text-align: center;
+    }
+    .promo_content {
+        padding-bottom: 12px;
+    }
+    .blog_area {
+        padding-bottom: 90px;
+    }
+    .blog_item_single.hover_box {
+        margin-bottom: 30px;
+    }
+    .blog_item_single.hover_box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .blog_item_single .blog_content {
+        width: 100%;
+        padding: 36px 20px;
+    }
+    .btn.projet_btn i{
+        font-size: 18px;
+        margin: 0px 14px 0 -7px;;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .info_bar {
+        display: none;
+    }
+    .menuzord {
+        float: none;
+    }
+    .logo_area_top {
+        padding: 6px 0 0px;
+    }
+    #header .logo{
+        display: inherit;
+    }
+    #header .logo img {
+        height: 35px;
+    }
+    service_finance_text {
+        padding: 18px 0px 25px;
+    }
+    .promo_area {
+        padding-right: 25px;
+    }
+    .project_img {
+        width: 100%;
+    }
+    .who_we_are_content {
+        height: 100%;
+    }
+    .video_intro, .content_left {
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .content_left {
+        padding:60px 8%;
+    }
+    .content_right {
+        padding: 190px 31%;
+    }
+    a.video-autoplay-true {
+        font-size: 30px;
+        height: 75px;
+        width: 75px;
+        line-height: 80px;
+    }
+    .btn.projet_btn i {
+        margin: 0px 6px 0 0;
+    }
+    .promo_content h3 {
+        font-size: 24px;
+    }
+    
+}
+
+@media (max-width: 479px) {
+    .container {
+        padding: 0 15px!important;
+    }
+    .service_finance_area {
+        padding: 70px 0 25px;
+    }
+    .testimonial_area {
+        padding: 70px 0;
+    }
+    #contact {
+        padding: 70px 0;
+    }
+    #blog {
+        padding: 70px 0px;
+        margin-bottom: 25px;
+    }    
+    .info_bar{
+        display: none;
+    }
+    .header_area{
+        overflow: hidden;
+    }
+
+    #blog {
+        padding-bottom: 15px;
+    }
+    .footer_area {
+        padding-top: 90px;
+    }
+    .content_left_text h6 {
+        font-size: 14px;
+    }
+    .content_left_text h3, .client_area_title h3 {
+        font-size: 26px;
+    }
+    .section_title h3, .promo_content h3 {
+        font-size: 21px;
+    }
+    .content_left_text p, .service_finance_text p,
+    .contact_title_subtitle p,
+    .single_checkcont_list a, .service_finance_text a,
+    .quick_link_list li a{
+        font-size: 14px;
+    }
+    .colorWh{
+        font-size: 15px;
+    }
+    .service_finance_area {
+        padding: 90px 0 45px;
+    }
+    .service_finance_img img {
+        width: 100%;
+    }
+    .project_img .project-overlay {
+        bottom: 0;
+        height: 45px;
+        line-height: 35px;
+        padding: 0;
+    }
+    .project_img .project-overlay a{
+        font-size: 13px;
+    }
+    .content_left {
+        padding: 60px 4%;
+    }
+    .content_right {
+        padding: 90px 0%;
+    }
+     a.video-autoplay-true {
+        font-size: 22px;
+        height: 65px;
+        width: 65px;
+        line-height: 70px;
+        margin: 0 100px;
+    }
+    a.video-autoplay-true i {
+        font-size: 34px;
+    }
+    .testimonial_details {
+        padding: 15px 0;
+    }
+    .finance_testimonial_info p {
+        max-width: 100%;
+    }
+    .owl-controls {
+        display: none;
+    }
+    .promo_area {
+        padding-right: 0;
+    }
+    .promo_content {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .blog_item_single .blog_content {
+        padding: 36px 15px;
+    }
+    
+    .more_about_us, .stay_update, .quick_link {
+        padding-bottom: 40px;
+    }
+    .matx-form-valid.contact-form {
+        margin: -25px 0 25px;
+    }
+
+}
+
+
+

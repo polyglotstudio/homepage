@@ -1,0 +1,488 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+/******************* Color ******************/
+.btn.hero_btn, 
+.btn.xplus-btn.portfolio-btn,
+a.btn.works_btn {
+    background: #ff5352;
+}
+a.btn.works_btn {
+    color: #ffffff;
+}
+
+/*
+************************************************
+         == Navigation CSS Start ==
+************************************************ 
+*/
+
+/*Color blue*/
+.hero_content p a,
+.menuzord-menu ul.dropdown li.active>a,
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a,
+.menuzord-menu>li>.megamenu .megamenu-row li.active>a,
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li.active>a>i,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu>li:hover>a>i,
+.client_testimonial_3column_info:after,
+.footer_left_icon li a:hover,
+.nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+.upgraded_1 input[type=email]:focus:not([readonly])+label, 
+.upgraded_h_1 input[type=email]:focus:not([readonly])+label, 
+.upgraded_field input[type=email]:focus:not([readonly])+label, 
+.upgraded_field input[type=text]:focus:not([readonly])+label, 
+textarea.massage_textarea:focus:not([readonly])+label{
+    color: #FF5351!important;
+}
+
+.nav-border-box .menuzord-menu > li.active > a,
+.nav-border-box .menuzord-menu > li:hover > a{
+    border:1px solid #FF5351;
+}
+.nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+.nav-border-bottom .menuzord .menuzord-menu>li:hover>a {
+    border-bottom: 3px solid #FF5351;
+}
+
+.input-field-modal button,
+.social_icon ul li a:hover,
+.nav-boxed-color .menuzord-menu > li.active > a,
+.nav-boxed-color .menuzord-menu > li:hover > a{
+    background: #FF5351!important;
+}
+.menuzord-menu ul.dropdown li >a::before,
+.menuzord-menu>li>.megamenu .megamenu-row li >a::before {
+    background-color: #FF5351!important;
+}
+/*
+************************************************
+         == Slider CSS Start ==
+************************************************ 
+*/
+
+.BigBold-Title{
+    font-family: 'proxima_nova_rgbold'!important;    
+}
+.BigBold-SubTitle{
+    font-family: 'proxima_nova_rgregular'!important;
+    color: rgba(255, 255, 255, 0.6)!important;
+}
+.BigBold-Button{
+    font-family: 'proxima_novasemibold'!important;
+}
+
+/*
+************************************************
+         == Who We Are CSS Start==
+************************************************ 
+*/
+.about_content {
+    margin-top: 0px;
+}
+.about_area {
+    padding-bottom: 55px;
+}
+/* progress_bar*/
+.custom_progress_bar {
+    background-color: #FF5353;
+}
+
+/*
+************************************************
+         == Service CSS Start ==
+************************************************ 
+*/
+.tabby-tab [type=radio] { display: none; }
+[type=radio]:checked ~ label {
+    background: #FF5351;
+}
+
+
+/*
+************************************************
+         == Service CSS Start ==
+************************************************ 
+*/
+.service_area {
+    padding-bottom: 20px;
+}
+.service_area .section_title{
+    margin-bottom: 125px;
+}
+.service_content {
+    margin-bottom: 90px;
+    padding: 0 0px 30px 0px;
+    border-radius: 3px;
+}
+.service_icon {
+    position: relative;
+    top: -45px;
+}
+.service_icon i {
+    font-size: 35px;
+    height: 90px;
+    width: 90px;
+    padding: 22px;
+    border: 5px solid #fff;
+}
+.service_text {
+    margin: -15px auto;
+    padding-bottom:20px;    
+}
+.service_text h3 {
+    margin: 0px 0 0 0;
+    padding-bottom: 20px;
+}
+.service_text p {
+    margin: 0;
+}
+
+/*
+************************************************
+         == Portfolio CSS==
+************************************************ 
+*/
+.work-3col {
+    padding-bottom: 90px;
+}
+.page-section-gutter-work-with-title {
+    padding: 110px 0;
+}
+.portfolio-filter li.active {
+    background: #FF5351;
+}
+
+.grid figure figcaption i:hover,
+.grid-gallery figcaption h3 a:hover,
+.grid-gallery figcaption p a:hover{
+    color: #FF5351;
+}
+
+/*
+************************************************
+         == Count CSS Start ==
+************************************************ 
+*/
+.counterup_area {
+    padding: 0px 0 68px;
+}
+.count_content {
+    border-top: 1px solid #ddd;
+    padding-top: 78px;
+}
+
+/*
+************************************************
+         == Testimonial CSS Start ==
+************************************************ 
+*/
+.testimonial_area {
+    padding: 130px 0 80px;
+}
+
+/*
+************************************************
+         == Blog CSS Start ==
+************************************************ 
+*/
+.blog_area {
+    padding-bottom: 157px;
+}
+.blog_item {
+    margin: 2px 0 2px 2px;
+    padding: 0px 0 30px 0px;
+}
+.blog_img {
+    display: block;
+}
+.blog_cont {
+    display: block;
+    width: 100%;
+    padding:36px 20px 0px 20px;
+}
+.blog_cont hr {
+    margin: 12px 0;
+}
+.blog_cont a {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgbold';
+    margin: 2px 0 16px;
+}
+.blog_s {
+    margin-bottom: 5px;
+}
+.colorWh {
+    max-width: 100%;
+}
+.blog_slid_creative .owl-controls {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    bottom: -54px;
+}
+.blog_slid_creative .owl-dot.active {
+    border: 3px solid #FF5353;
+}
+.blog_slid_creative .owl-dot {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ff5352;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+/*
+************************************************
+         == Workes CSS Start ==
+************************************************ 
+*/
+.promo_area {
+    background: #f8f8f8;
+    padding: 90px 0;
+}
+.works_info h3 {
+    color: #333333;
+    padding-top: 10px;
+}
+
+/*
+************************************************
+         == Footer CSS Start ==
+************************************************ 
+*/
+.footer_area {
+    padding: 110px 0 90px;
+}
+.footer_logo img{
+    height: 50px;
+}
+.scroll_top_up{
+    bottom: 505px;
+	position: absolute;
+}
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+    .blog_item .blog_img, .blog_item .blog_cont {
+        width: 100%;
+    }
+    .blog_item{
+        padding-bottom: 10px;
+    }
+    .blog_item .blog_cont {
+        padding: 12px 16px 0 16px;
+    }
+    .blog_cont .colorWh {
+        max-width: 100%;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .about_area {
+        padding-bottom: 110px;
+    }
+    
+    .promo_area{
+        text-align: center;
+    }
+    .works_info h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .blog_slid_creative .blog_item {
+        margin-left: 1px;
+        width: 99%;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .tabs {
+        min-height: 360px;
+    }
+    #service {
+        padding-bottom: 20px;
+    }
+    .service_content {
+        margin-bottom: 70px;
+    }
+    #about {
+        padding-bottom: 70px;
+    }
+    .counterup_area {
+        padding: 78px 0 25px;
+    }
+    .count_text{
+        margin: -12px 0 40px 15px;
+        text-align: left;
+    }
+    .count_text h3 {
+        margin-top: 15px;
+    }
+    .blog_slid_creative .blog_item {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .promo_area {
+        text-align: center;
+    }
+    .works_info h3 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    .count_text h3 {
+        margin-top: 15px;
+        font-size: 28px;
+    }
+    .footer_area.page-section {
+        padding: 90px 0 40px;
+    }
+    .footer_menu li {
+        margin: 22px;
+    }
+    .copyright_section {
+        padding-bottom: 30px;
+    }
+    
+}
+@media (max-width: 650px) { 
+    .service_area .section_title {
+        margin-bottom: 90px;
+    }
+    section.work-3col{
+        padding: 85px 0 70px;
+    }
+    .counterup_area {
+        padding: 0 0 20px!important;
+    }
+    .blog_area.page-section {
+        padding: 85px 0 140px;
+    }
+    .count_content .count_text h3 {
+        margin-top: 16px;
+        font-size: 26px;
+    }    
+    .promo_area {
+        padding: 60px 0;
+    }
+    .promo_area .works_info h3{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 500px){
+    .tabs {
+        min-height: 380px;
+    }
+    .service_text {
+        width: 100%;
+        padding: 0 6px;
+    }
+    .service_content .service_text p {
+        font-size: 15px;
+    }
+    .counterup_area {
+        margin-top: -80px;
+    }
+    .count_text {
+        margin-top: 25px;
+    }
+    .blog_slid_creative .blog_item {
+        box-shadow: none;
+    }
+    ul.footer_menu li a {
+        font-size: 14px;
+    }
+    
+     .tabby-content.top_title p {
+        line-height: 26px!important;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 479px) {  
+    .btn.xplus-btn.portfolio-btn {
+        font-size: 12px;
+        width: 150px;
+        line-height: 47px;
+        height: 45px;
+    }
+    .tabby-tab label {
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    section#about .tabby-content.top_title p {
+        line-height: 26px!important;
+        font-size: 13px;
+    }
+    .tabs {
+        min-height: 350px;
+    }
+    .tabby-content p {
+        font-size: 13px;
+    }
+    .count_text{
+        margin: -22px 0 40px 15px;
+    }
+
+    .service_area {
+        padding-bottom: 0;
+    }
+    .service_text {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .service_area .section_title {
+        margin-bottom: 90px;
+    }
+    #portfolio{
+        margin-bottom: 0;
+    }
+    .blog_area.page-section {
+        padding: 85px 0 60px;
+    }
+    .blog_item .blog_cont {
+        padding: 30px 0;
+    }
+    .blog_slid_creative .owl-controls {
+        width: 100%;
+        text-align: left;
+        bottom: 0;
+        left: -5px;
+    }
+    .promo_area {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    .tabs {
+        min-height: 355px;
+    }
+}
+@media (max-width: 359px) {
+    .tabs {
+        min-height: 450px;
+    }
+}
+
+
+
+
+
+
+

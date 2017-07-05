@@ -1,0 +1,146 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 05-Jan-2017
+------------------------------------------*/
+
+
+/*
+************************************************
+         == Header CSS Start ==
+************************************************ 
+*/
+
+/* ------ Tiny Header Css -----*/
+.tiny_header {
+    background: #1d1d22;
+    height: 45px;
+}
+.contact_lang {
+    float: left;
+}
+.tiny_header .contact_lang ul li{
+    display: inline-block;
+    color: #ddd;
+    font-size: 13px;
+    line-height: 45px;
+    margin-right: 25px;
+    font-family: 'proxima_nova_rgregular';
+    text-transform: lowercase;
+}
+.tiny_header .contact_lang ul > li > i{
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    padding-top: 12px;
+}
+.tiny_header .contact_lang ul li a{
+    color: #ddd;
+}
+
+/* ------ Socail Css -----*/
+.social_icon {
+    margin-top: 0px;
+    float: right;
+    margin-right: -15px;
+}
+.social_icon ul li {
+    padding-right: 5px;
+    display: inline-block;
+    line-height: 42px;
+}
+.social_icon ul li a {
+    color: #fff;
+    text-align: center;
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.social_icon ul li a:hover {
+    background: #99CA3C;
+}
+.social_icon ul li:nth-child(1), .social_icon ul li:nth-child(2){
+    font-size: 14px;
+}
+.social_icon ul li:nth-child(3){
+     font-size:12px;
+}
+.social_icon ul li:nth-child(4){
+      font-size: 14px;
+}
+.social_icon ul li:nth-child(5){
+      font-size: 15px;
+}
+
+
+/* --------- search ----------- */
+.btn-search:hover, .btn-search:focus{
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+.btn.btn-search i {
+    color: #333333;
+}
+.input-field-modal button {
+    background: #99CA3C!important;
+}
+
+
+
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+}
+
+@media (max-width: 768px){
+    .btn-search {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 531px) and (max-width: 560px){
+    .social_icon ul li {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 530px){
+    .social_icon {
+        margin-top: -55px;
+        margin-right: -15px;
+    }
+    .social_icon ul li {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tiny_header {
+        height: auto;
+    }
+    .social_icon {
+        float: left;
+        margin-right: 0;
+        margin-top: -8px;
+    }
+    .social_icon ul li {
+        padding-right: 0;
+    }
+
+     
+    
+}
+
+

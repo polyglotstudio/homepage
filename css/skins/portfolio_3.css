@@ -1,0 +1,368 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 25-Jan-2017
+------------------------------------------*/
+
+/*
+************************************************
+         == Navigation Menu Start ==
+************************************************ 
+*/
+.overlay-menu li a:hover {
+    color: #2196f3;
+    -webkit-transition: 5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+/*
+************************************************
+         == Home_3 Btn CSS Start ==
+************************************************ 
+*/
+
+.btn.xplus-btn-round{
+    background: #2196f3;
+}
+.btn.send-btn-round {
+     float: right;
+}
+.btn.send-btn-round span {
+    margin-left: 12px;
+}
+.promo_info .btn.xplus-btn-round {
+    width: 190px;
+}
+
+/*
+************************************************
+         == Hero CSS Start ==
+************************************************ 
+*/
+.logo-brand img {
+    height: 40px;
+    margin: 30px 0 0 40px;
+    position: fixed;
+    z-index: 3;
+}
+.hero_area {
+    border-bottom: 1px solid #dddddd;
+    padding: 10rem 0 11rem;
+    background-image: url('../../images/polyglot/prairie-woman.jpg');
+    background-position: center bottom;
+}
+.hero_content h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'proxima_nova_rgbold';
+    text-transform: uppercase;
+}
+.hero_content p {
+    color: white;
+    font-size: 17px;
+    font-family: 'proxima_nova_rgregular';
+    max-width: 540px;
+    margin-top: 25px;
+}
+.hero_content p a {
+    border-bottom: 1px solid #c7e5fc;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #2196f3;
+}
+
+/************************************************
+        ==Start Portfolio CSS==
+************************************************/ 
+
+.page-section-gutter-work-with-title {
+    padding: 80px 0 105px;
+}
+
+/* ------ portfolio Filter -----*/
+.portfolio-filter {
+    background: none;
+    box-shadow: none;
+	line-height: 0;
+    margin-bottom: 50px;
+}
+
+.portfolio-filter li {
+	padding: 0 15px;
+	
+}
+.portfolio-filter li a {
+    padding: 5px;
+}
+
+.portfolio-filter li.active {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.portfolio-filter li.active a {
+	border-bottom: 3px solid #333;
+	color: #666;
+}
+/* ------ portfolio Item -----*/
+    figure .action-btn i:hover {
+        color: #2196f3;
+}
+
+/* ------ Load More Button -----*/
+#load-more-project {
+    text-align: center;
+    margin-top: 15px;
+}
+.load-more-project-wrap {
+    background: none;
+    border: none;
+}
+.load-more-project-wrap{
+    font-family: 'proxima_nova_rgbold';
+	font-size: 15px;
+	color: #444;
+	letter-spacing: 0.5px;
+}
+.load-more-project-wrap span{
+	margin: 1px 5px;
+    position: absolute;
+    font-size: 14px;
+}
+button:focus {
+    background-color: transparent;
+}
+
+/*
+************************************************
+       == Promo CSS Start ==
+************************************************ 
+*/
+.promo_cta{
+    background: #F8F8F8;
+    padding:50px 0;
+    margin-top: -1px;
+}
+.promo_info h3 {
+    color: #333;
+    font-size: 36px;
+    font-family: 'proxima_nova_rgbold';
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+
+/*
+************************************************
+         == Footer CSS Start ==
+************************************************ 
+*/
+.footer_menu_bottom ul li a:hover{
+    color:#2196F3;
+}
+.footer_menu_bottom ul li a:after, .footer_menu_bottom ul li a:before {
+    background: #2196F3;
+}
+ footer .scroll_top_up{
+	background: #2196f3;
+}
+.footer_left_icon li a:hover {
+    background-color: #2196F3;
+}
+.scroll-up-footer .scroll_top_up {
+    background: #2196F3;
+}
+.copyright p a {
+    color: #2196F3;
+}
+.contact-form input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #2196F3;
+    box-shadow: 0 1px 0 0 #2196F3;
+}
+.upgraded_h_1 input[type=email]:focus:not([readonly])+label {
+    color: #2196F3;
+}
+
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .footer-veno-item {
+        height: 66px;
+        width: 66px;
+    }
+    .footer-overlay-img a {
+        width: 72px;
+        height: 72px;
+    }
+    .footer_menu_bottom ul li {
+        padding-right: 30px;
+    }
+    .footer_menu_bottom ul li a, .copyright p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .btn.xplus-btn-round {
+        height: 50px;
+        line-height: 50px;
+        font-size: 13px;
+    }
+    .flicker-photo {
+        margin: 0;
+    }
+    .contact_address {
+        margin-left: -12px;
+    }
+    .contact-form {
+        margin-bottom: 50px;
+    }
+    .bottom_footer {
+        margin-top: 90px;
+    }
+    .bottom_footer_text {
+        text-align: center;
+    }
+    .footer_menu_bottom ul li {
+        padding-right: 20px;
+    }
+    .footer_menu_bottom ul li a{
+        font-size: 15px;
+    }
+    .footer_menu_bottom ul li:after{
+        border-left: none;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .logo_area_onepage_agency {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .hero_content h1 {
+        font-size: 50px;
+    }
+    .hero_content p {
+        font-size: 16px;
+    }
+    .btn.xplus-btn-round {
+        height: 55px;
+        font-size: 14px;
+        line-height: 55px;
+        width: 160px;
+    }
+    .promo_info h3, .title h3 {
+        font-size: 26px;
+    }
+    .flicker-photo {
+        margin-left: 0;
+    }
+    .bottom_footer {
+        margin-top: 90px;
+        padding: 50px 0;
+    }
+    .bottom_footer_text {
+        text-align: center;
+    }
+    .copyright {
+        float: none;
+        margin-top: 0;
+    }
+    
+}
+
+@media (max-width: 520px){
+    
+    .hero_area {
+        height: 500px;
+        padding-top: 170px;
+        text-align: center;
+    }
+    .hero_content h1 {
+        font-size: 34px;
+    }
+    .hero_content p {
+        font-size: 16px;
+    }
+    .page-section, .promo_cta, .about_area_onepage_agency{
+        padding: 50px 0;
+    }
+    .promo_info h3{
+        font-size: 24px;
+    }
+    .tab-pane {
+        margin-top: 0;
+    }
+    .tab-pane, p.tab_content {
+        margin-top: 0;
+    }
+    .contact_text p, .more_about_us p, 
+    .footer_menu_bottom ul li a{
+        font-size: 14px;
+    }
+    .service_text p{
+        margin: 0 20px;
+    }
+    #contact {
+        padding-bottom: 75px;
+    }
+    .contact_bottom .contact_text p{
+        font-size: 13px;
+    }
+    .contact_bottom {
+        padding: 60px 0 0;
+    }
+    .more_about_us {
+        padding: 0;
+    }
+    .flicker-photo, .newsletter_subscribe {
+        margin-top: 35px;
+    }
+    .footer-overlay-img a {
+        width: 68px;
+        height: 70px;
+    }
+    .footer-veno-item {
+        height: 62px;
+        width: 62px;
+        margin: 5px auto;
+    }
+    .matx-form-valid.contact-form{
+        margin: -24px 0 28px 0;
+    }
+    .footer_area{
+        padding-top: 90px;
+    }
+    .footer_menu_bottom ul li:after{
+        border-left: none;
+    }
+    .footer_menu_bottom ul li {
+        padding: 0 6px;
+        line-height: 26px;
+    }
+    .footer_menu_bottom ul li a{
+        
+    }
+    .copyright p {
+        margin-top: 12px;
+    }
+    
+}
+
+
+
+
+
+
+

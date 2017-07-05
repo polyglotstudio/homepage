@@ -1,0 +1,100 @@
+/*------------------------------------------
+
+Project Name : xPlus;
+Desgined By  : Faridul Haque;
+Developed By : Sumaiya Shampa & Faridul Haque;
+Date         : 05-Jan-2017
+------------------------------------------*/
+
+
+
+/* ============================  CTA Css ================================= */
+
+.btn.xplus-btn-round  {
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'proxima_novasemibold';
+    text-transform: inherit;
+    line-height: 60px;
+    margin: 0px;
+    height: 60px;
+}
+.btn.xplus-btn-round.project_btn{
+    background: #fff;
+    color: #333;
+    width: 220px
+}
+.btn.subscribe-btn {
+    height: 55px;
+    line-height: 55px;
+    width: 170px;
+    background: #99ca3c;
+}
+.promo_cta {
+    background: #99ca3c;
+    padding: 80px 0;
+}
+.promo_cta h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'proxima_nova_rgbold';
+    margin-top: 8px;
+}
+
+
+/* ============================  Rsponsive Css ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .btn.xplus-btn-round.project_btn {
+        margin-left: -60px;
+    }
+    .promo_cta {
+        padding: 75px 0;
+    }
+    .promo_cta h1 {
+        font-size: 34px;
+        margin-top: 8px;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+     .btn.xplus-btn-round.project_btn {
+        font-size: 14px;
+        width: 200px;
+    }
+    .promo_cta {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .promo_cta h1 {
+        font-size: 34px;
+    }
+    .promo_cta {
+        padding: 40px 0 55px;
+    
+    }
+}
+
+@media (max-width: 767px){
+    .promo_cta {
+        text-align: center;
+    }
+    .promo_cta h1 {
+        font-size: 36px;
+        padding-bottom: 20px
+    }
+}
+
+@media (max-width: 500px){
+    .btn.xplus-btn-round {
+        font-size: 14px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .promo_cta h1 {
+        font-size: 28px;
+    }
+}
+
