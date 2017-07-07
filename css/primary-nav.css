@@ -95,6 +95,8 @@ Header
 #header .logo-brand img {
     height: 45px;
     float: left;
+
+    filter: invert(90%);
 }
 
 .tt-nav.sticky .logo-brand img, 
