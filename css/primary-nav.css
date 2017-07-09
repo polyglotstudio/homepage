@@ -6,12 +6,12 @@ Navigation
 .menuzord .menuzord-menu>li.active>a>i,
 .menuzord .menuzord-menu>li:hover>a,
 .menuzord .menuzord-menu>li:hover>a>i{
-    color: #99ca3c !important;
+    color: #66528A !important;
 }
 
 .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
 .nav-border-bottom .menuzord .menuzord-menu>li:hover>a {
-    border-bottom: 3px solid #99ca3c;
+    border-bottom: 3px solid #66528A;
 }
 
 .nav-border-box .menuzord-menu > li.active > a,
@@ -1092,7 +1092,7 @@ Responsive Menu
     .nav-border-bottom .menuzord .menuzord-menu>li:hover>a,
     .nav-border-bottom .brand-header .menuzord .menuzord-menu>li.active>a,
     .nav-border-bottom .brand-header .menuzord .menuzord-menu>li:hover>a {
-        border-bottom: 1px solid #99ca3c;
+        border-bottom: 1px solid #66528A;
     }
     .brand-header .menuzord .menuzord-menu>li:hover>a,
     .brand-header .menuzord .menuzord-menu>li.active>a,

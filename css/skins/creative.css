@@ -10,7 +10,7 @@ Date         : 25-Jan-2017
 .btn.hero_btn, 
 .btn.xplus-btn.portfolio-btn,
 a.btn.works_btn {
-    background: #ff5352;
+    background: #42827C;
 }
 a.btn.works_btn {
     color: #ffffff;
@@ -39,7 +39,7 @@ a.btn.works_btn {
 .upgraded_field input[type=email]:focus:not([readonly])+label, 
 .upgraded_field input[type=text]:focus:not([readonly])+label, 
 textarea.massage_textarea:focus:not([readonly])+label{
-    color: #FF5351!important;
+    color: #66528A!important;
 }
 
 .nav-border-box .menuzord-menu > li.active > a,
@@ -48,7 +48,7 @@ textarea.massage_textarea:focus:not([readonly])+label{
 }
 .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
 .nav-border-bottom .menuzord .menuzord-menu>li:hover>a {
-    border-bottom: 3px solid #FF5351;
+    border-bottom: 3px solid #66528A;
 }
 
 .input-field-modal button,

@@ -304,7 +304,7 @@ span.scroll_top_up,
 .pricing_bg_color_agency.active .price_icon_h_2,
 .pricing_bg_color_agency:hover .price_icon_h_2,
 ul.trigger li.active {
-    background-color: #FF5351;
+    background-color: #42827C;
 }
 
 /*-------------------------- shadow css --------------------------*/
@@ -2190,7 +2190,7 @@ textarea#textarea1 {
 .footer_area {
     padding-top: 106px;
     padding-bottom: 0;
-    background: #1d1d22;
+    background: #252525;
 }
 
 .title_underline {
@@ -2387,7 +2387,7 @@ textarea#textarea1 {
 }
 
 .copyright_section p {
-    color: #888888;
+    color: white;
     font-size: 13px;
     font-family: 'proxima_novasemibold';
     text-transform: initial;
