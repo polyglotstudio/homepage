@@ -150,7 +150,14 @@ textarea.massage_textarea:focus:not([readonly])+label{
 ************************************************ 
 */
 .work-3col {
-    padding-bottom: 90px;
+    background-image: url("../../images/polyglot/WoodTextureTINY.jpg");
+}
+.lighter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    padding: 105px 0 90px 0;
 }
 .page-section-gutter-work-with-title {
     padding: 110px 0;
@@ -248,7 +255,7 @@ textarea.massage_textarea:focus:not([readonly])+label{
 */
 .promo_area {
     background: #f8f8f8;
-    padding: 90px 0;
+    padding: 90px 0;;
 }
 .works_info h3 {
     color: #333333;
@@ -362,9 +369,9 @@ textarea.massage_textarea:focus:not([readonly])+label{
     .service_area .section_title {
         margin-bottom: 90px;
     }
-    section.work-3col{
+/*    section.work-3col{
         padding: 85px 0 70px;
-    }
+    }*/
     .counterup_area {
         padding: 0 0 20px!important;
     }
@@ -464,9 +471,9 @@ textarea.massage_textarea:focus:not([readonly])+label{
         bottom: 0;
         left: -5px;
     }
-    .promo_area {
+/*    .promo_area {
         margin-top: 20px;
-    }
+    }*/
 }
 
 @media (max-width: 479px) {

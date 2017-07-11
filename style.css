@@ -771,7 +771,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 
 .title_subtitle span {
-    color: #888888;
+    color: #252525;
     font-family: 'proxima_nova_rgregular';
     font-size: 14px;
     letter-spacing: 1.2px;
