@@ -135,7 +135,8 @@ textarea.massage_textarea:focus:not([readonly])+label{
 }
 .service_text {
     margin: -15px auto;
-    padding-bottom:20px;    
+    padding-bottom:20px;  
+    min-height: 12rem;  
 }
 .service_text h3 {
     margin: 0px 0 0 0;
@@ -398,7 +399,8 @@ textarea.massage_textarea:focus:not([readonly])+label{
     }
     .service_text {
         width: 100%;
-        padding: 0 6px;
+        padding: 0 15px 20px 15px;
+        min-height: 1rem;
     }
     .service_content .service_text p {
         font-size: 15px;
@@ -452,8 +454,9 @@ textarea.massage_textarea:focus:not([readonly])+label{
         padding-bottom: 0;
     }
     .service_text {
-        padding: 0 15px;
+        padding: 0 15px 20px 15px;
         width: 100%;
+        min-height: 1rem;
     }
     .service_area .section_title {
         margin-bottom: 90px;

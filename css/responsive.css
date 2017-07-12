@@ -219,7 +219,7 @@ Date         : 05-Jan-2017
          margin-left: 0; 
     }
     .grid li {
-        width: 50% !important;
+        width: 100% !important;
     }
     /*  grid figcaption   */
     .grid figcaption {
