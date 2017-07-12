@@ -786,7 +786,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 
 .title hr {
-    width: 70px;
+    width: 200px;
     height: 1px;
     color: #dddddd;
 }
@@ -1584,7 +1584,7 @@ section.masonry.wide .grid figcaption{
 
 .team_area {
     background: #f8f8f8;
-    padding-bottom: 155px;
+    padding-bottom: 50px;
 }
 
 .team_member {

@@ -488,7 +488,124 @@ textarea.massage_textarea:focus:not([readonly])+label{
 }
 
 
+/************************************************
+         == Team CSS Start ==
+*************************************************/
 
+.team_section_title{
+    padding-bottom: 20px;
+}
+.team_section_title hr{
+    width: 200px;
+}
+.team_area {
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+.team_member {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 78px;
+}
+
+.member_content h4, .member_content_overlay h4 {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'proxima_nova_rgbold';
+}
+.member_role {
+    color: #888888;
+    font-size: 12px;
+    line-height: 0px;
+    font-family: 'proxima_nova_rgregular';
+}
+.team_icon {
+    left: 95%;
+    font-size: 24px;
+    margin-top: -26px;
+    position: absolute;
+    margin-left: -50px;
+    background: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.team-close-icon {
+    left: -100%;
+    font-size: 24px;
+    margin-top: -26px;
+    position: absolute;
+    margin-left: -50px;
+    background: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    opacity: 0;
+    z-index: 99;
+}
+.team-close-icon a{
+    color: #99ca3c;
+    display: block;
+    border-radius: 50%;  
+}
+.team_icon a {
+    color: #99ca3c;
+    display: block;
+    border-radius: 50%;
+}
+.member_content {
+    background: #fff;
+    padding: 25px 30px 30px 30px;
+    text-align: left;
+}
+.member_img img {
+    height: 100%;
+    width: 100%;
+}
+.member_toggle {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    opacity: 0;
+    top: 0;
+    padding-top: 30px;
+}
+.member_text {
+    width: 208px;
+    margin: auto;
+}
+.member_content_overlay {
+    padding-top: 24px;
+    border-top: 1px solid #EAEAEA;
+    padding-left: 30px;
+    margin-top: 32px;
+}
+ul.member_social {
+    margin-left: 14px;
+}
+.member_social li {
+    display: inline-block;
+}
+.member_social li a {
+    display: block;
+    color: #888888;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+}
+.member_social li a:hover {
+    background: #99ca3c;
+    color: #fff;
+}
 
 
 
