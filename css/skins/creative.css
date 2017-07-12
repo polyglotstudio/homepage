@@ -112,6 +112,7 @@ textarea.massage_textarea:focus:not([readonly])+label{
 */
 .service_area {
     padding-bottom: 20px;
+    background-image: url("../../images/polyglot/WoodTextureTINY.jpg");
 }
 .service_area .section_title{
     margin-bottom: 125px;
@@ -150,7 +151,8 @@ textarea.massage_textarea:focus:not([readonly])+label{
 ************************************************ 
 */
 .work-3col {
-    background-image: url("../../images/polyglot/WoodTextureTINY.jpg");
+    /*background-image: url("../../images/polyglot/WoodTextureTINY.jpg");*/
+    padding: 50px 0;
 }
 .lighter {
     width: 100%;
