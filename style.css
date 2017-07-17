@@ -2294,7 +2294,7 @@ textarea#textarea1 {
 
 .footer_icon li {
     display: inline-block;
-    background: #eb4e4e;
+    background: #66528A;
     height: 25px;
     width: 25px;
     line-height: 25px;
@@ -2336,7 +2336,7 @@ textarea#textarea1 {
     content: "";
     width: 0;
     height: 1px;
-    background: #EB4E4E;
+    background: #66528A;
     bottom: 0px;
 }
 
@@ -2365,7 +2365,7 @@ textarea#textarea1 {
 }
 
 .footer_menu li a:hover {
-    color: #EB4E4E
+    color: white
 }
 
 .footer_menu li a:after {
