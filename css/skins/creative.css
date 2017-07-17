@@ -13,7 +13,8 @@ a.btn.works_btn {
     background: #42827C;
 }
 a.btn.works_btn {
-    color: #ffffff;
+    color: white;
+    border: 1px solid white;
 }
 
 /*
@@ -172,7 +173,7 @@ textarea.massage_textarea:focus:not([readonly])+label{
 .grid figure figcaption i:hover,
 .grid-gallery figcaption h3 a:hover,
 .grid-gallery figcaption p a:hover{
-    color: #FF5351;
+    color: #42827C;
 }
 
 /*
@@ -257,11 +258,11 @@ textarea.massage_textarea:focus:not([readonly])+label{
 ************************************************ 
 */
 .promo_area {
-    background: #f8f8f8;
-    padding: 90px 0;;
+    background: #42827C;
+    padding: 90px 0;
 }
 .works_info h3 {
-    color: #333333;
+    color: white;
     padding-top: 10px;
 }
 
@@ -553,12 +554,12 @@ textarea.massage_textarea:focus:not([readonly])+label{
     z-index: 99;
 }
 .team-close-icon a{
-    color: #99ca3c;
+    color: #42827C;
     display: block;
     border-radius: 50%;  
 }
 .team_icon a {
-    color: #99ca3c;
+    color: #42827C;
     display: block;
     border-radius: 50%;
 }
